@@ -1,0 +1,173 @@
+.course-container {
+	padding: 130px 20px 20px 20px;
+}
+
+.course-contents {
+	padding: 		30px;
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.course-name {
+	color: 			#000000;
+	font-size: 		24px;
+	text-align: 	left;
+	font-weight: 	600;
+    text-transform: capitalize;
+}
+
+.course-name i {
+	margin-right: 5px;
+}
+
+.course-company {
+	color: 			#000000;
+	font-size: 		11px;
+	font-weight: 	500;
+}
+
+.course-company i {
+	margin-right: 5px;
+}
+
+.course-body {
+	text-align: right;
+}
+
+.course-login {
+	color: 				#FF3333;
+	font-size: 			12px;
+    text-transform:		uppercase;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.course-login:hover {
+	color: 				#cc0000;
+	cursor:				pointer;
+	text-decoration: 	none;
+}
+
+.course-button {
+	font-size: 		12px;
+    text-transform: uppercase;
+}
+
+.course-label {
+	color: 			#000000;
+	font-size: 		13px;
+	font-weight: 	700;
+}
+
+.course-description {
+	color: 			#000000;
+	display: 		block;
+	font-size: 		12px;
+	line-height: 	24px;
+	font-weight: 	500;
+}
+
+.course-content-description {
+	margin-bottom: 20px;
+}
+
+.course-label-2 {
+	color: 			#000000;
+	display: 		block;
+	font-size: 		12px;
+	font-weight: 	500;
+}
+
+.course-label-2 i {
+	margin-right: 5px;
+}
+
+.course-label-black {
+	color: 	#000000;
+}
+
+.course-label-money {
+	color:  green;
+}
+
+.course-bookmark-button {
+	color: 			#FFFFFF;
+    margin-top: 	10px;
+    margin-bottom: 	10px;
+    text-transform: uppercase;
+}
+
+.course-bookmark-button:hover {
+	color: #FFFFFF;
+}
+
+.course-profile-button {
+	color: 				#FF3333;
+	float: 				right;
+	font-size: 			11px;
+	font-weight:	 	700;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.course-profile-button:hover {
+	color: 				#cc0000;
+	cursor:				pointer;
+	text-decoration: 	none;
+}
+
+.course-title {
+    color: 			#808080;
+	display: 		block;
+    font-size: 		12px;
+	text-align:		left;
+    line-height: 	12px;
+}
+
+.course-forms {
+	font-size: 		12px;
+	margin-bottom:	10px;
+	padding-bottom: 10px;
+}
+
+.course-book {
+	width: 		100%;
+	color: 		#FFFFFF;
+	background: #ffc107;
+}
+
+.course-book:hover, .course-book:active {
+	color: 		#FFFFFF;
+	background: #806000;
+}
+
+.course-unbook {
+	width: 		100%;
+	color: 		#FFFFFF;
+	border:		1px solid #806000;
+	background: #806000;
+}
+
+.course-unbook:hover, .course-unbook:active {
+	color: 		#FFFFFF;
+	border:		1px solid #ffc107;
+	background: #ffc107;
+}
+
+.course-link {
+	color: 				#FF3333;
+    display: 			block;
+    font-size: 			12px;
+    font-weight: 		700;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.course-link:hover, .course-link:focus {
+	color: #cc0000;
+	text-decoration: none !important;
+}
+
+.disabled:hover {
+	cursor: not-allowed;
+}

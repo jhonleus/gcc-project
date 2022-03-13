@@ -1,0 +1,39 @@
+.requirement-container {
+	padding: 130px 20px 20px 20px;
+}
+
+.requirement-contents {
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.requirement-title {
+	color: 				#000000;
+	font-size: 			18px;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.requirement-forms {
+	font-size: 		12px;
+	margin-bottom:	10px;
+	padding-bottom: 10px;
+}
+
+.requirement-footer {
+	padding: 	30px 10px 10px 10px;
+	text-align: center;
+	border-top: 1px solid #cccccc;
+}
+
+.requirement-label {
+	text-align:left;
+	display: block;
+    color: #808080;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.requirement-button {
+	font-size: 12px;
+}

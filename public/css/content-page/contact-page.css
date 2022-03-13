@@ -1,0 +1,75 @@
+/*contact us page*/
+	.contact-page-container{
+		margin-top: 0;
+		margin-bottom: 0; 
+		box-sizing: border-box;
+	}
+
+	.contact-page-container h1{
+		color: #3C3C3C;
+	}
+
+	
+
+	.contact-page-section2 h1{
+		color: #414141;
+	}
+
+	.contact-page-container form input[type=text]{
+		border-radius: 5px;
+		padding: 15px;
+		font-family: lato,sans-serif;
+	
+	}
+
+	.contact-page-container form input[type=email]{
+		border-radius: 5px;
+		padding: 15px;
+		font-family: lato,sans-serif;
+		
+	}
+
+	 .contact-page-container form input[type=number]{
+		border-radius: 5px;
+		padding: 15px;
+		font-family: lato,sans-serif;	
+	}
+
+
+	.contact-page-container form textarea{
+		resize: none;
+		border-radius: 5px;
+		padding: 15px;
+		font-family: lato,sans-serif;
+	}
+
+	.contact-page-container form textarea:focus{
+		background-color: #fff;
+	}
+
+	.fa-facebook-square:before{
+		color: white;
+		width: 50px;
+		display: block;
+	}
+
+	.fa-instagram:before{
+		color: white;
+		width: 50px;
+		display: block;
+	}
+
+	.fa-linkedin-in:before{
+		color: white;
+		width: 50px;
+		display: block;
+	}
+
+	/*mobile size*/
+	@media only screen and (max-width: 480px) {
+		
+		.contact-page-row{
+			margin-bottom: 5%;
+		}
+	
+	}

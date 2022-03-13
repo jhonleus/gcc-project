@@ -1,0 +1,56 @@
+.rating-stars ul {
+  padding:				0;
+  text-align:			left;
+  list-style-type:		none;
+  -moz-user-select:		none;
+  -webkit-user-select:	none;
+}
+
+.rating-stars ul > li.star {
+  display:	inline-block;
+}
+
+.rating-stars ul > li.star > i.fa {
+  color:		#ccc; 
+  font-size: 	25px;
+}
+
+.rating-stars ul > li.star.hover > i.fa {
+  color:	#FFCC36;
+}
+
+.rating-stars ul > li.star.selected > i.fa {
+  color:	#FF912C;
+}
+
+.star-color-2 {
+	color: #FF912C;
+}
+
+
+
+.overall-ratings ul > li.star {
+  display:	inline-block;
+}
+
+.overall-ratings ul > li.star > i.fa {
+  color:		#ccc; 
+  font-size: 	12px;
+}
+
+.overall-ratings ul > li.star.hover > i.fa {
+  color:	#FFCC36;
+}
+
+.overall-ratings ul > li.star.selected > i.fa {
+  color:	#FF912C;
+}
+
+.overall-ratings ul {
+	margin-bottom: 8px;
+  	padding:				0;
+  	text-align:			left;
+  	list-style-type:		none;
+  	-moz-user-select:		none;
+  	-webkit-user-select:	none;
+}

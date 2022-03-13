@@ -1,0 +1,303 @@
+.applicant-container {
+	padding: 130px 20px 20px 20px;
+}
+
+.applicant-contents {
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.applicant-contents-details {
+	padding: 		20px 10px 20px 10px;
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.applicant-body {
+	margin: 	2px 20px 10px 20px;
+	padding: 	0;
+}
+
+.applicant-left-button {
+	color: 				#808080;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		400;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.applicant-left-button:hover {
+	color: 				#0d0d0d;
+	cursor: 			pointer;
+	text-decoration: 	none;
+}
+
+.applicant-left-button i {
+	margin-right: 5px;
+}
+
+.applicant-left-content {
+	padding: 	3px 20px 10px 20px;
+}
+
+.applicant-left-label {
+	color: 				#000000;
+	display: 			inline;
+	font-size: 			13px;
+	font-weight:		700;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.applicant-list-group li {
+	border: none;
+}
+
+.applicant-list-item {
+	cursor: 		pointer;
+	display: 		block;
+	padding: 		5px 10px 5px 10px;
+	position: 		relative;
+	margin-bottom: -1px;
+}
+
+.applicant-left-list {
+	color: 				#808080;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		500;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.applicant-left-list i {
+	margin-right: 10px;
+}
+
+.applicant-left-list:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.applicant-left-list-active {
+	color: 				#007bff;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		500;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.applicant-left-list-active i {
+	margin-right: 10px;
+}
+
+.applicant-left-list-active:hover {
+	color: 				#007bff;
+	text-decoration: 	none;
+}
+
+.nav-tabs {
+    border: 		0;
+    border-radius: 	3px;
+}
+
+.nav {
+    padding-left: 0;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+	color: 				#000000;
+    transition: 		background-color .3s .2s;
+    background-color: 	hsla(0,0%,100%,.2);
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: 			#808080;
+    border: 		0;
+    padding: 		10px 15px;
+    font-size: 		12px;
+    line-height: 	24px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    display: block;
+}
+
+.nav .nav-item {
+    position: relative;
+}
+
+@media (min-width: 576px) {
+  	.applicant-header {
+		height: 60px;
+  	}
+}
+
+@media (max-width: 576px) {
+  	.applicant-header {
+		height: auto;
+  	}
+}
+
+.applicant-header {
+	border-bottom: 	1px solid #e6e6e6;
+}
+
+.applicant-header-2 {
+	height: 		40px;
+	border-bottom: 	1px solid #e6e6e6;
+}
+
+.applicant-name {
+	color: 				#007bff;
+    display: 			inline;
+    font-size: 			20px;
+    font-weight: 		700;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.applicant-actions {
+	color: 				#007bff;
+	display: 			block;
+	font-size: 			12px;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.applicant-actions:hover {
+	color: 				#0056b3;
+	cursor:				pointer;
+	text-decoration: 	none;
+}
+
+.applicant-forms-right {
+	float: 		right;
+	font-size: 	12px;
+	margin-top: 5px;
+}
+
+.applicant-orange {
+	color: 				#f0ad4e;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.applicant-orange:hover {
+	color: 				#bc7410;
+	cursor: 			pointer;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.applicant-blue {
+	color: 				#007bff;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.applicant-blue:hover {
+	color: 				#0056b3;
+	cursor:				pointer;
+	text-decoration: 	none;
+}
+
+.applicant-red {
+	color: 				#d9534f;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.applicant-red:hover {
+	color: 				#922420;
+	cursor:				pointer;
+	text-decoration: 	none;
+}
+
+.delete-course, 
+.delete-job {
+	cursor: pointer;
+}
+
+.applicant-details {
+	color: 			#000000;
+    margin: 		10px 10px 0 10px;
+	display: 		block;
+	font-size: 		12px;
+	font-weight: 	500;
+}
+
+.applicant-details i {
+	margin-right: 5px;
+}
+
+.applicant-image {
+	width: 100%;
+	height: auto;
+	padding:10px;
+}
+
+.applicant-footer {
+	padding: 		10px;
+	text-align: 	right;
+}
+
+@media (min-width: 768px) {
+	.applicant-footer {
+		margin-right: 	20px;
+	}
+}
+
+.applicant-date {
+	color: 			#000000;
+	font-size: 		11px;
+	font-weight: 	500;
+}
+
+.select, .input {
+	width: 100%;
+}
+
+.applicant-label-select {
+    color: 			#808080;
+	display: 		block;
+    font-size: 		12px;
+	text-align:		left;
+    line-height: 	12px;
+}
+
+.applicant-button {
+	font-size: 12px;
+}
+
+.applicant-forms {
+	font-size: 		12px;
+	margin-bottom:	10px;
+	padding-bottom: 10px;
+}
+
+.applicant-confirm-label {
+	color: 				#000000;
+	font-size: 			18px;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.applicant-information-label {
+	margin:				0;
+	font-size: 			16px;
+	font-weight: 		600;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.applicant-information-header {
+	padding: 	5px 10px 10px 10px;
+}
+
+.applicant-header-action {
+	text-align:right
+}

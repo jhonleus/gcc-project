@@ -1,0 +1,98 @@
+/*feedback page forms for the all the users*/
+
+		.feedback-page-title{
+			color: #3B9FFF;
+			font-size: 30px;
+		}
+
+		.feedback-page-illustration{
+			
+			background-color: #1B7AAA;
+			background-size: cover;
+			background-position: bottom;
+			background-repeat: no-repeat;
+		}
+
+		.feedback-page-btn{
+			background-color:#FF3333;
+			border: none;
+		}
+
+		.feedback-page-btn:hover{
+			background-color: #FF4848;
+		}
+
+		.feedback-page-bg{
+		position: absolute; 
+		z-index:-1; 
+		font-size: 150px; 
+		bottom: 120px; 
+		right: 1px; 
+		opacity: 0.2;  
+		color: black;
+  		-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  		-webkit-text-stroke-width: 1px;
+  		-webkit-text-stroke-color: black;
+		}
+
+		/*mobile size*/
+		@media only screen and (max-width: 480px) {
+			
+			.container{
+			-webkit-box-shadow: none;
+        	-moz-box-shadow: none;
+        	box-shadow: none;
+			}
+
+			.feedback-page-container{
+        	-webkit-box-shadow: none;
+        	-moz-box-shadow: none;
+        	box-shadow: none;
+    		}
+
+			.feedback-page-illustration{
+				display: none;
+			}
+
+			.feedback-page-container{
+				padding-top: 10%;
+			}
+
+			.feedback-page-bg{
+				display: none;
+			}
+
+			
+
+			/*.feedback-page-title{
+				position: relative;
+				top: -280px;
+				font-size: 30px;
+			}
+
+			.feedback-page-container p{
+				position: relative;
+				top: -260px;
+			}
+
+			.feedback-page-container form{
+				position: relative;
+				top: -270px;
+			}
+
+			.feedback-page-container form input[type=email] {
+				width: 350px;
+				margin: 0px auto;
+				display: block;
+			}
+
+			.form-group textarea {
+				width: 350px;
+				margin: 0px auto;
+			}
+
+			.feedback-page-btn{
+				width: 100%;
+			}*/
+
+		}

@@ -1,0 +1,470 @@
+.profile-container {
+	padding: 130px 20px 20px 20px;
+}
+.label-black:before {
+	color: black !important;
+}
+.profile-contents {
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.profile-contents-jobs {
+	padding: 		20px 10px 20px 10px;
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.profile-header {
+	padding: 	5px 10px 10px 10px;
+	height: auto;
+	margin-top: 5px;
+}
+
+.profile-body {
+	margin: 	20px 0 0 0;;
+	padding: 	0;
+}
+
+.profile-company {
+	color: 				#000000;
+	margin: 			0;
+	font-size: 			24px;
+	text-align: 		center;
+	font-weight: 		600;
+	text-transform:  	capitalize;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.profile-links {
+	font-size: 		12px;
+	font-weight: 	600;
+}
+
+.profile-links:hover {
+	text-decoration: none;
+}
+
+.profile-center {
+	text-align: center;
+}
+
+
+.profile-details {
+	padding:	20px;
+	text-align: left;
+}
+
+.profile-details-label {
+	display:		block;
+	color: 			#999999;
+    font-size: 		12px;
+    line-height: 	12px;
+    font-weight: 	600;
+    margin-bottom: 	20px;
+}
+
+.profile-details-description {
+	color: 			#000000;
+	display:		block;
+	font-size: 		13px;
+	font-weight: 	600;
+	line-height: 	12px;
+	margin-bottom: 	20px;
+}
+
+.profile-details-organization {
+	color: 			#999999;
+	display:		block;
+	font-size: 		13px;
+	margin-top: 	10px;
+	font-weight: 	600;
+	line-height: 	12px;
+	margin-bottom: 	15px;
+}
+
+ul.profile-links {
+  list-style: none;
+  display: block
+  margin-left: 0 !important;
+  margin-top:20px;
+  padding: 10px;
+}
+
+ul.profile-links li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.profile-links a.profile-facebook:hover {
+	background-color: #3B5998;
+}
+
+.profile-links a.profile-twitter:hover {
+  	background-color: #007bb7;
+}
+
+.profile-links a.profile-website:hover {
+  	background-color: #004080;
+}
+
+.profile-links a.profile-facebook:hover i,
+.profile-links a.profile-website:hover i,
+.profile-links a.profile-twitter:hover i {
+  	color: #fff;
+}
+
+.profile-links a.socialIcon:hover,
+.socialHoverClass {
+  	color: #44BCDD;
+}
+
+.profile-links-circle li a {
+	width: 					30px;
+	height: 				30px;
+	margin: 				0 auto 0 auto;
+	display: 				inline-block;
+	position: 				relative;
+	font-size: 				15px;
+	text-align: 			center;
+	border-radius: 			50%;
+	-moz-border-radius: 	50%;
+	-webkit-border-radius: 	50%;
+}
+
+.profile-links-circle li i {
+	margin: 		0;
+	text-align: 	center;
+	line-height: 	30px;
+}
+
+.profile-links-circle li a:hover i,
+.triggeredHover {
+	transform: 				rotate(360deg);
+	transition: 			all 0.2s;
+	-o-transition: 			all 0.2s;
+	-ms-transition: 		all 0.2s;
+	-ms--transform: 		rotate(360deg);
+	-moz-transform: 		rotate(360deg);
+	-moz-transition: 		all 0.2s;
+	-webkit-transform: 		rotate(360deg);
+	-webkit-transition: 	all 0.2s;
+}
+
+.profile-links-circle i {
+	color: 				#595959;
+	transition: 		all 0.8s;
+	-o-transition: 		all 0.8s;
+	-ms-transition: 	all 0.8s;
+	-moz-transition: 	all 0.8s;
+	-webkit-transition: all 0.8s;
+}
+
+.profile-links a {
+  	background-color: #F9F9F9;
+}
+
+.profile-navbar-head {
+	padding: 	5px;
+}
+
+.nav {
+    padding-left: 0;
+}
+
+.nav-tabs {
+    border: 		0;
+    border-radius: 	3px;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+	color: 				#000000;
+    transition: 		background-color .3s .2s;
+    background-color: 	hsla(0,0%,100%,.2);
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: 			#808080;
+    border: 		0;
+    padding: 		10px 15px;
+    font-size: 		12px;
+    line-height: 	24px;
+    text-transform: uppercase;
+}
+
+.profile-badge {
+	border-radius: 0 10px 10px 0;
+	padding: 10px 20px 10px 20px;
+	min-width: 120px;
+	width: auto;
+	text-align: left;
+	color:white;
+	background-color:#FF3333;
+}
+
+.profile-button {
+	font-size: 12px;
+}
+
+.profile-description {
+	padding: 	20px 20px 0 20px;
+	font-size: 	12px;
+}
+
+.profile-note {
+	display: 	block;
+	padding: 	0px 20px 0 20px;
+	font-size: 	11px;
+}
+
+.profile-underline {
+	color: 				#808080;
+	padding: 			20px 20px 0 20px;
+	font-size: 			12px;
+	text-decoration: 	underline;
+}
+
+.profile-underline:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.profile-ratings-label {
+	color: 				#000000;
+    font-size: 			67px;
+    font-weight: 		bold;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.profile-rating-title {
+	color: 		#808080;
+	display: 	block;
+	font-size: 	12px;
+}
+
+.profile-rating-description {
+	color: 				#000000;
+	display: 			block;
+	line-height:	 	24px;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.profile-job-content {
+	margin: 	2px 20px 10px 20px;
+	padding: 	0;
+}
+
+.profile-job-header {
+	border-bottom: 	1px solid #e6e6e6;
+	height: 40px;
+}
+
+.profile-job-title {
+	color: 				#000000;
+    display: 			inline;
+    font-size: 			20px;
+    font-weight: 		700;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.profile-job-title:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.profile-job-details {
+	color: 			#000000;
+    margin: 		10px 10px 0 10px;
+	display: 		block;
+	font-size: 		12px;
+	font-weight: 	500;
+}
+
+.profile-job-details i {
+	margin-right: 5px;
+}
+
+.profile-job-money {
+	color: green;
+}
+
+.profile-job-currency {
+	color: 	#000000;
+}
+
+.profile-job-description {
+	color: 			#000000;
+    margin: 		10px 10px 0 0;
+	display: 		block;
+	font-size: 		12px;
+    line-height: 	25px;
+	font-weight: 	500;
+}
+
+.profile-job-footer {
+	padding: 		10px;
+	text-align: 	right;
+}
+
+@media (min-width: 768px) {
+	.profile-job-footer {
+		margin-right: 	20px;
+	}
+}
+
+.profile-job-posted {
+	color: 			#000000;
+	font-size: 		11px;
+	font-weight: 	500;
+}
+
+.profile-review-content {
+	margin: 	20px 0 30px 0;
+	padding: 	0;
+}
+
+.profile-content-button {
+	text-align: right;
+}
+
+@media (min-width: 576px) {
+	.profile-content-button {
+	    margin-left: -15px;
+	}
+}
+
+.profile-review-body {
+    padding: 	0 10px 0 10px;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 700px) {
+	.profile-review-icon {
+		width: 	50%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.profile-review-icon {
+		width: 	auto;
+		height: 50px;
+	}
+}
+
+.profile-review-date {
+	color: 		#808080;
+	display: 	block;
+	font-size: 	12px;
+}
+
+.profile-review-title {
+	color: 			#007bff;
+	font-size: 		12px;
+    margin-bottom: 	0;
+}
+
+@media (min-width: 576px) {
+	.profile-review-title {
+	    margin-left: -15px;
+	}
+}
+
+.profile-review {
+	color: 				#000000;
+	font-size: 			11px;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+@media (max-width: 576px) {
+	.profile-review {
+	    margin-left: 10px;
+	}
+}
+
+.profile-review-desc {
+	color: 			#808080;
+	font-size: 		12px;
+    margin-bottom: 	0;
+}
+
+@media (min-width: 576px) {
+	.profile-review-desc {
+	    margin-left: -15px;
+	}
+}
+
+.profile-review-descrip {
+	color: 				#000000;
+	font-size: 			11px;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+@media (max-width: 576px) {
+	.profile-review-descrip {
+	    margin-left: 10px;
+	}
+}
+
+.profile-details-logo {
+	border-radius: 	50%;
+	padding:		5px;
+}
+
+@media only screen and (min-width: 700px) {
+	.profile-details-logo {
+		width: 	80%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.profile-details-logo {
+		width: 	100%;
+		height: auto;
+	}
+}
+
+.hr:not(:last-child) {
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-bottom:15px;
+}
+
+.profile-title-label {
+	color: 			#000000;
+	font-size: 		18px;
+	font-weight: 	700;
+}
+
+.profile-title-label i {
+	margin-right: 5px;
+}
+
+.profile-content-description {
+	margin-bottom: 20px;
+}
+
+.profile-content-group {
+	padding: 16px;
+}
+
+.profile-sublabel {
+	color: 			#999999;
+	display:		block;
+    font-size: 		11px;
+    line-height: 	11px;
+    font-weight: 	600;
+    margin-bottom: 	20px;
+}
+
+.job-image {
+	width: 100%;
+	height: auto;
+}

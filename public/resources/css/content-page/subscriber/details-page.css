@@ -1,0 +1,147 @@
+.details-container {
+	padding: 130px 20px 20px 20px;
+}
+
+.details-contents {
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.details-body {
+	margin: 	2px 20px 10px 20px;
+	padding: 	0;
+}
+
+.details-left-button {
+	color: 				#808080;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		400;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.details-left-button:hover {
+	color: 				#0d0d0d;
+	cursor: 			pointer;
+	text-decoration: 	none;
+}
+
+.details-left-button i {
+	margin-right: 5px;
+}
+
+.details-left-content {
+	padding: 	3px 20px 10px 20px;
+}
+
+.details-left-label {
+	color: 				#000000;
+	display: 			inline;
+	font-size: 			13px;
+	font-weight:		700;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.details-list-group li {
+	border: none;
+}
+
+.details-list-item {
+	cursor: 		pointer;
+	display: 		block;
+	padding: 		5px 10px 5px 10px;
+	position: 		relative;
+	margin-bottom: -1px;
+}
+
+.details-left-list {
+	color: 				#808080;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		500;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.details-left-list i {
+	margin-right: 10px;
+}
+
+.details-left-list:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.details-left-list-active {
+	color: 				#007bff;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		500;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.details-left-list-active i {
+	margin-right: 10px;
+}
+
+.details-left-list-active:hover {
+	color: 				#007bff;
+	text-decoration: 	none;
+}
+
+.details-header {
+	padding: 	5px 10px 10px 10px;
+}
+
+.details-label {
+	margin:				0;
+	font-size: 			16px;
+	font-weight: 		600;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.details-button {
+	font-size: 12px;
+}
+
+.details-header-left {
+	text-align:right
+}
+
+@media (max-width: 576px) {
+	.details-desktop {
+		display: none;
+	}
+}
+
+.details-title {
+    color: 			#808080;
+	display: 		block;
+    font-size: 		12px;
+    line-height: 	20px;
+    margin-bottom: 	20px;
+}
+
+.details-description {
+	color: 			#000000;
+	display: 		block;
+	font-size: 		12px;
+	line-height: 	20px;
+    margin-bottom: 	20px;
+}
+
+@media (max-width: 576px) {
+	.details-mobile {
+		display: block;
+	}
+}
+
+@media (min-width: 576px) {
+	.details-mobile {
+		display: 	none;
+	}
+}

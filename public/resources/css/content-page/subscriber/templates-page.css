@@ -1,0 +1,40 @@
+.templates-body {
+	margin: 	2px 20px 10px 20px;
+	padding: 	0;
+}
+
+.label-information {
+	margin: 			0;
+	font-size: 			16px;
+	font-weight: 		600;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.templates-font {
+	font-size: 11px;
+}
+
+.input {
+	width: 100%;
+}
+
+.templates-notes {
+	color: 		#808080;
+	display: 	block;	
+	font-size: 	11px;
+}
+
+.txtarea {
+	width: 100%;
+}
+
+.templates-action {
+	padding: 	30px 10px 10px 10px;
+	text-align: center;
+	border-top: 1px solid #cccccc;
+}
+
+.templates-button {
+	font-size: 12px;
+}

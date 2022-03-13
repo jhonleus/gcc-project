@@ -1,0 +1,158 @@
+/*company page*/
+.adminbox1{
+    width: 100%;
+    margin: 0px auto;
+    padding: 50px;
+    display: block;
+}
+
+.admin-picture{
+    width: 100px;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.admininfo{
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px #D4D9DF;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.adminboxposting{
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px #D4D9DF;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.btn-nav{
+    border: none;
+    background-color: none;
+}
+
+.sidebar-heading img{
+    width: 50px;
+    display: block;
+    margin: 0px auto;
+    padding:0;   
+}
+
+/*adminjoblist page*/
+.joblistsection1 h1{
+    font-size: 35px;
+    font-family: helvetica;
+    display: block;
+}
+
+.joblistcontent1 .job-title-link{
+    text-decoration: none;
+    color: #6C757D;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+/*userjoblist page*/
+
+.userjoblist{
+    display: block;
+    top: 100px;
+    position: relative;
+}
+
+.userjoblist img{
+    width: 100px;
+    display: block;
+    margin: 0px auto;
+}
+
+/*maintenance page*/
+.company-logo img{
+    width: 400px;
+    margin:0px auto;
+    margin-bottom: 10px;
+}
+
+.navigationcolor{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #DEE2E6;
+}
+    
+.footercolor{
+    height: 100px;
+    width: 100px;
+    background-color: #F1F1F1;
+    box-shadow: 5px 5px 5px 5px #DEE2E6;
+}
+
+.bodycolor{
+    height: 100px;
+    width: 100px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px 5px #DEE2E6;
+}
+
+.admin-sidebar{
+    background-color: #1C98E0;
+}
+
+.admin-sidebar p{
+    color: #FFFFFF;
+}
+
+.admin-sidebar i{
+    color: #FFFFFF;
+}
+
+.admin-sidebar .nav-header{
+    color: #FFFFFF;
+}
+
+.admin-sidebar .info a{
+    color: #FFFFFF;
+}
+
+[class*=sidebar-dark] .user-panel{
+    border: none;
+}
+
+[class*=sidebar-dark] .brand-link{
+    border: none;
+}
+
+.main-header{
+    border: none;
+    background-color: none;
+}
+
+[class*=sidebar-dark] .brand-link{
+    color: #FFFFFF;
+}
+
+.main-footer{
+    border:none;
+}
+
+.navbar-white{
+    background-color: #FFFFFF;
+}
+
+.admin-searchbar{
+    background-color: red;
+}
+
+/*admin dashboard user dropdown */
+.navbar-nav .dropdown-menu{
+    position: absolute;
+    border: none;
+    transition: 1000ms;
+}
+
+/*top companies rating page*/
+.fa-star:before {
+    content: "\f005";
+    color: #FFC35E;
+}

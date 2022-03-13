@@ -1,0 +1,281 @@
+.job-container {
+	padding: 130px 20px 20px 20px;
+}
+
+.job-contents {
+	box-shadow:		0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.job-content {
+	padding: 		20px 10px 20px 10px;
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom:	15px;
+}
+
+.job-body {
+	margin: 	2px 20px 10px 20px;
+	padding: 	0;
+}
+
+.job-left-button {
+	color: 				#808080;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		400;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.job-left-button:hover {
+	color: 				#0d0d0d;
+	cursor: 			pointer;
+	text-decoration: 	none;
+}
+
+.job-left-button i {
+	margin-right: 5px;
+}
+
+.job-left-content {
+	padding: 	3px 20px 10px 20px;
+}
+
+.job-left-label {
+	color: 				#000000;
+	display: 			inline;
+	font-size: 			13px;
+	font-weight:		700;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.job-list-group li {
+	border: none;
+}
+
+.job-list-item {
+	cursor: 		pointer;
+	display: 		block;
+	padding: 		5px 10px 5px 10px;
+	position: 		relative;
+	margin-bottom: -1px;
+}
+
+.job-left-list {
+	color: 				#808080;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		500;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.job-left-list i {
+	margin-right: 10px;
+}
+
+.job-left-list:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.job-left-list-active {
+	color: 				#007bff;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		500;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.job-left-list-active i {
+	margin-right: 10px;
+}
+
+.job-left-list-active:hover {
+	color: 				#007bff;
+	text-decoration: 	none;
+}
+
+.nav-tabs {
+    border: 		0;
+    border-radius: 	3px;
+}
+
+.nav {
+    padding-left: 0;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+	color: 				#000000;
+    transition: 		background-color .3s .2s;
+    background-color: 	hsla(0,0%,100%,.2);
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: 			#808080;
+    border: 		0;
+    padding: 		10px 15px;
+    font-size: 		12px;
+    line-height: 	24px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    display: block;
+}
+
+.nav .nav-item {
+    position: relative;
+}
+
+.job-header {
+	height: 		40px;
+	border-bottom: 	1px solid #e6e6e6;
+}
+
+.job-title {
+	color: 				#007bff;
+    display: 			inline;
+    font-size: 			20px;
+    font-weight: 		700;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.job-actions {
+	float: 		right;
+	font-size: 	12px;
+	margin-top: 5px;
+}
+
+.job-details {
+	color: 			#000000;
+    margin: 		10px 10px 0 10px;
+	display: 		block;
+	font-size: 		12px;
+	font-weight: 	500;
+}
+
+.job-details i {
+	margin-right: 5px;
+}
+
+.job-money {
+	color: green;
+}
+
+.job-black {
+	color: #000000;
+}
+
+.job-description {
+	color: 			#000000;
+    margin: 		10px 10px 0 0;
+	display: 		block;
+	font-size: 		12px;
+    line-height: 	25px;
+	font-weight: 	500;
+}
+
+.job-footer {
+	padding: 		10px;
+	text-align: 	right;
+}
+
+@media (min-width: 768px) {
+	.job-footer {
+		margin-right: 	20px;
+	}
+}
+
+.job-posted {
+	color: 			#000000;
+	font-size: 		11px;
+	font-weight: 	500;
+}
+
+.job-forms {
+	font-size: 		12px;
+	margin-bottom:	10px;
+	padding-bottom: 10px;
+}
+
+.select {
+	width: 100%;
+}
+
+.job-button {
+	font-size: 12px;
+}
+
+.job-label {
+	text-align:left;
+	display: block;
+    color: #808080;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.job-note {
+	color: 				#000000;
+	font-size: 			18px;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.job-blue {
+	color: 				#337ab7;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.job-blue:hover {
+	color: 				#1c4263;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.job-orange {
+	color: 				#f0ad4e;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.job-orange:hover {
+	color: 				#bc7410;
+	cursor: 			pointer;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.job-red {
+	color: 				#d9534f;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.job-red:hover {
+	color: 				#922420;
+	cursor: 			pointer;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.job-green {
+	color: 				#5cb85c;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.job-green:hover {
+	color: 				#2f6a2f;
+	cursor: 			pointer;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.txtarea, .input {
+	width: 100%;
+}

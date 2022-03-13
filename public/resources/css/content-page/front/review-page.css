@@ -1,0 +1,79 @@
+.review-container {
+	padding: 130px 20px 20px 20px;
+}
+
+.card-color-1 {
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.review-header {
+	padding: 	5px 10px 10px 10px;
+}
+
+.review-title {
+	margin: 0;
+	font-size: 16px;
+	font-weight: 600;
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+.review-forms {
+	font-size: 		12px;
+	margin-bottom:	10px;
+	padding-bottom: 10px;
+}
+
+.review-label {
+	text-align:left;
+	display: block;
+    color: #808080;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.input {
+	width: 100%;
+}
+
+.txtarea {
+	width: 100%;
+}
+
+.review-buttons button {
+	background: 		#F0F2F4;
+	border: 			1px solid #ced4da; 
+	color: 				#000000;
+	padding: 			10px 24px; 
+	cursor: 			pointer;
+	float: 				left; 
+}
+
+.review-buttons .selected {
+ 	background: #ffffff;
+}
+
+.review-buttons button:not(:last-child) {
+  border-right: none; 
+}
+
+.review-buttons:after {
+	content: 	"";
+	clear: 		both;
+	display: 	table;
+}
+
+.review-buttons button:hover {
+ 	background: #ffffff;
+}
+
+.review-footer {
+	padding: 	30px 10px 10px 10px;
+	text-align: center;
+	border-top: 1px solid #cccccc;
+}
+
+.review-button {
+	font-size: 12px;
+}

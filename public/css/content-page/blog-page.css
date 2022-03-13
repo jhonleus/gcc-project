@@ -1,0 +1,45 @@
+/*blogpage, which is posted by the admin */
+
+	.blog-page-image1{
+		display: block;
+		margin: 0px auto;
+		position: relative;
+	}
+	
+	.blog-page-content{
+		transform: scale(1.0); 
+		box-shadow:0 2px 43px -4px rgba(0,0,0,.19);
+		transition: all .2s ease-out;
+	}
+
+	.blog-page-content:hover{
+		transform: translateY(2px);
+		box-shadow: 0 2px 5px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.05);
+	}
+
+	.blog-page-line{
+		height: 5px;
+		width: 40px;
+		background-color: #FF3F3F;
+	}
+
+	@media only screen and (max-width: 480px) {
+	
+	.blog-page-container1{
+		margin-top: 20px;
+	}
+
+	.blog-page-content{
+		transform: none;
+		box-shadow: none;
+		transition: none;
+	}
+	.blog-page-content:hover{
+		transform: none;
+		box-shadow:none;
+	}
+
+	.blog-page-line{
+		display: none;
+	}
+	}

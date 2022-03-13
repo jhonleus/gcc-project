@@ -1,0 +1,242 @@
+.job-container {
+	padding: 130px 20px 20px 20px;
+}
+
+.label-black:before {
+	color: black !important;
+}
+
+
+/*JOB SEARCH CRITERIA CSS*/
+
+.job-search-contents {
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.job-search-header {
+	padding: 	0 10px 5px 10px;
+}
+
+.job-search-title {
+	color: 				#000000;
+	margin: 			0;
+	font-size: 			12px;
+	text-align: 		right;
+	font-weight: 		500;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.job-search-title i {
+	margin-right: 5px;
+}
+
+.job-search-title:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.job-search-forms {
+	font-size: 		12px;
+	margin-bottom:	10px;
+}
+
+.select {
+	width: 100%;
+}
+
+.input {
+	width: 100%;
+}
+
+@media (min-width: 576px) {
+	.job-search-currency {
+		padding-right: 0;
+	}
+
+	.job-search-salary {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 576px) {
+	.job-search-currency {
+		padding-bottom: 10px;
+	}
+
+	.job-search-salary {
+		padding-bottom: 10px;
+	}
+}
+
+.job-search-button {
+	width: 		100%;
+	font-size: 	12px;
+}
+
+
+
+
+
+/*JOB LIST CSS*/
+.job-contents {
+	padding: 		20px 10px 20px 10px;
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.job-body {
+	margin: 	2px 20px 10px 20px;
+	padding: 	0;
+}
+
+.job-header {
+	border-bottom: 	1px solid #e6e6e6;
+	height: 85px;
+}
+
+.job-title {
+	color: 				#000000;
+    display: 			block;
+    font-size: 			20px;
+    font-weight: 		700;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.job-title:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.job-company {
+	color: 				#000000;
+    font-size: 			15px;
+    font-weight: 		500;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.job-company:hover {
+	color: 				#000000;
+	text-decoration:	none;
+}
+
+.job-label {
+	color: 			#000000;
+    margin: 		10px 10px 0 10px;
+	display: 		block;
+	font-size: 		12px;
+	font-weight: 	500;
+}
+
+.job-label i {
+	margin-right: 5px;
+}
+
+.job-label-money {
+	color: 	green;
+}
+
+.job-label-black {
+	color: 	#000000;
+}
+
+.job-label-description {
+	color: 			#000000;
+    margin: 		10px 10px 0 0;
+	display: 		block;
+	font-size: 		12px;
+    line-height: 	25px;
+	font-weight: 	500;
+}
+
+.job-label-description i {
+	margin-right: 5px;
+}
+
+.job-footer {
+	padding: 		10px;
+	text-align: 	right;
+}
+
+@media (min-width: 768px) {
+	.job-footer {
+		margin-right: 	20px;
+	}
+}
+
+.job-label-posted {
+	color: 			#000000;
+	font-size: 		11px;
+	font-weight: 	500;
+}
+
+.job-image {
+	width: 100%;
+	height: auto;
+	padding:10px;
+}
+
+@media (min-width: 576px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -33px;
+  	}
+}
+
+@media (max-width: 576px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -63px;
+  	}
+}
+
+@media (max-width: 400px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -94px;
+  	}
+}
+
+@media (max-width: 320px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -124px;
+  	}
+}
+
+.applicant-buttons-saved i {
+	color: 				#FF3333;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.applicant-buttons-saved i:hover {
+	color: 						#FFFFFF;
+	cursor:						pointer;
+	text-decoration: 			none;
+    -webkit-text-stroke-width: 	1px;
+    -webkit-text-stroke-color: 	#FF3333;
+}
+
+
+.applicant-buttons i {
+	color: 						#FFFFFF;
+	margin-block-end: 			0;
+    margin-block-start:	 		0;	
+    -webkit-text-stroke-width: 	1px;
+    -webkit-text-stroke-color: 	#FF3333;
+
+}
+
+.applicant-buttons i:hover {
+	color: 				#FF3333;
+	cursor:				pointer;
+	text-decoration: 	none;
+}

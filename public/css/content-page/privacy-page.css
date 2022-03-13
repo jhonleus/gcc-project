@@ -1,0 +1,25 @@
+/*terms of privacy*/
+	.privacy-page-section1{
+		height: 100vh;
+	}
+
+	.privacy-page-content1{
+		position: relative;
+		top: 100px;
+	}
+
+	.privacy-page-section1 .privacy-page-content1 h1{
+		font-size: 50px;
+	}
+
+	.privacy-page-text{
+		color: #212529;
+	}
+
+		@media only screen and (max-width: 480px) {
+
+		.privacy-page-section1 .privacy-page-content1 h1{
+			font-size: 30px;
+		}
+
+	}

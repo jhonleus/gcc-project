@@ -1,0 +1,244 @@
+.course-container {
+	padding: 130px 20px 20px 20px;
+}
+
+
+
+
+.padding {
+	padding: 0px 5px 0px 10px;
+}
+
+/*course SEARCH CRITERIA CSS*/
+
+.course-search-contents {
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.course-search-header {
+	padding: 	0 10px 5px 10px;
+}
+
+.course-search-title {
+	color: 				#000000;
+	margin: 			0;
+	font-size: 			12px;
+	text-align: 		right;
+	font-weight: 		500;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.course-search-title i {
+	margin-right: 5px;
+}
+
+.course-search-title:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.course-search-forms {
+	font-size: 		12px;
+	margin-bottom:	10px;
+}
+
+.course-image {
+	width: 100%;
+	height: auto;
+	padding:10px;
+}
+
+@media (min-width: 576px) {
+	.course-search-currency {
+		padding-right: 0;
+	}
+
+	.course-search-salary {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 576px) {
+	.course-search-currency {
+		padding-bottom: 10px;
+	}
+
+	.course-search-salary {
+		padding-bottom: 10px;
+	}
+}
+
+.select {
+	width: 100%;
+}
+
+.input {
+	width: 100%;
+}
+
+.course-search-button {
+	width: 		100%;
+	font-size: 	12px;
+}
+
+
+
+
+
+/*course LIST CSS*/
+.course-contents {
+	padding: 		20px 10px 20px 10px;
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.course-body {
+	margin: 	2px 20px 10px 20px;
+	padding: 	0;
+}
+
+.course-header {
+	border-bottom: 	1px solid #e6e6e6;
+	height: 75px;
+}
+
+.course-title {
+	color: 				#000000;
+    display: 			block;
+    font-size: 			20px;
+    font-weight: 		700;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.course-title:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.course-school {
+	color: 				#000000;
+    font-size: 			15px;
+    font-weight: 		500;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.course-school:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.course-label {
+	color: 			#000000;
+    margin: 		10px 10px 0 10px;
+	display: 		block;
+	font-size: 		12px;
+	font-weight: 	500;
+}
+
+.course-label i {
+	margin-right: 5px;
+}
+
+.course-label-money {
+	color: 	green;
+}
+
+.course-label-black {
+	color: 	#000000;
+}
+
+.course-label-description {
+	color: 			#000000;
+    margin: 		10px 10px 0 0;
+	display: 		block;
+	font-size: 		12px;
+    line-height: 	25px;
+	font-weight: 	500;
+}
+
+.course-label-description i {
+	margin-right: 5px;
+}
+
+.course-footer {
+	padding: 		10px;
+	text-align: 	right;
+}
+
+@media (min-width: 768px) {
+	.course-footer {
+		margin-right: 	20px;
+	}
+}
+
+.course-label-posted {
+	color: 			#000000;
+	font-size: 		11px;
+	font-weight: 	500;
+}
+
+@media (min-width: 576px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -33px;
+  	}
+}
+
+@media (max-width: 576px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -63px;
+  	}
+}
+
+@media (max-width: 400px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -94px;
+  	}
+}
+
+@media (max-width: 320px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -124px;
+  	}
+}
+
+.applicant-buttons-saved i {
+	color: 				#FF3333;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.applicant-buttons-saved i:hover {
+	color: 						#FFFFFF;
+	cursor:						pointer;
+	text-decoration: 			none;
+    -webkit-text-stroke-width: 	1px;
+    -webkit-text-stroke-color: 	#FF3333;
+}
+
+
+.applicant-buttons i {
+	color: 						#FFFFFF;
+	margin-block-end: 			0;
+    margin-block-start:	 		0;	
+    -webkit-text-stroke-width: 	1px;
+    -webkit-text-stroke-color: 	#FF3333;
+
+}
+
+.applicant-buttons i:hover {
+	color: 				#FF3333;
+	cursor:				pointer;
+	text-decoration: 	none;
+}

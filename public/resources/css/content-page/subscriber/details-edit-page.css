@@ -1,0 +1,42 @@
+@media (min-width: 915px) {
+	.input {
+		/*width: 			300px;*/
+		width: 			100%;
+	}
+}
+
+@media (max-width: 915px) {
+	.input {
+		width: 			100%;
+	}
+}
+
+@media (min-width: 600px) {
+	.txtarea {
+		width: 400px;
+	}
+}
+
+@media (max-width: 600px) {
+	.txtarea {
+		width: 100%;
+	}
+}
+
+@media (min-width: 915px) {
+	.select {
+		width: 100%;
+	}
+}
+
+@media (max-width: 915px) {
+	.select {
+		width: 100%;
+	}
+}
+
+
+
+.details-button {
+	font-size: 12px;
+}

@@ -1,0 +1,25 @@
+.schedule-rows td {
+  width:            80px;
+  cursor:           pointer;
+  height:           30px;
+  margin:           3px;
+  padding:          5px;
+  font-size:        12px;
+  background-color: #e6e6e6;
+}
+
+.schedule-rows td:first-child {
+  position:         relative;
+  text-align:       right;
+  background-color: transparent;
+}
+
+.schedule-header {
+  font-size:  15px;
+  text-align: center;
+}
+
+.schedule-rows td[data-selected],
+.schedule-rows td[data-selecting] { background-color: #E74C3C; }
+
+.schedule-rows td[data-disabled] { opacity: 0.55; }

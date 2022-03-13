@@ -1,0 +1,294 @@
+.applicant-container {
+	padding: 130px 20px 20px 20px;
+}
+
+
+
+
+/*applicant SEARCH CRITERIA CSS*/
+
+.applicant-search-contents {
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.applicant-search-header {
+	padding: 	0 10px 5px 10px;
+}
+
+.applicant-search-title {
+	color: 				#000000;
+	margin: 			0;
+	font-size: 			12px;
+	text-align: 		right;
+	font-weight: 		500;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.applicant-search-title i {
+	margin-right: 5px;
+}
+
+.applicant-search-title:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.applicant-search-forms {
+	font-size: 		12px;
+	margin-bottom:	10px;
+}
+
+.select {
+	width: 100%;
+}
+
+.input {
+	width: 100%;
+}
+
+@media (min-width: 576px) {
+	.applicant-search-currency {
+		padding-right: 0;
+	}
+
+	.applicant-search-salary {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 576px) {
+	.applicant-search-currency {
+		padding-bottom: 10px;
+	}
+
+	.applicant-search-salary {
+		padding-bottom: 10px;
+	}
+}
+
+.applicant-search-button {
+	width: 		100%;
+	font-size: 	12px;
+}
+
+
+
+
+
+/*applicant LIST CSS*/
+.applicant-contents {
+	padding: 		20px 10px 20px 10px;
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.applicant-body {
+	margin: 	2px 20px 10px 20px;
+	padding: 	0;
+}
+
+.applicant-title {
+	color: 				#007bff;
+    display: 			block;
+    font-size: 			20px;
+    font-weight: 		700;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.applicant-title:hover {
+	text-decoration: none;
+}
+
+.applicant-company {
+	color: 				#007bff;
+    font-size: 			15px;
+    font-weight: 		500;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.applicant-company:hover {
+	text-decoration: none;
+}
+
+.applicant-label {
+	color: 			#000000;
+    margin: 		10px 10px 0 10px;
+	display: 		block;
+	font-size: 		12px;
+	font-weight: 	500;
+}
+
+.applicant-label i {
+	margin-right: 5px;
+}
+
+.applicant-label-money {
+	color: 	green;
+}
+
+.applicant-label-black {
+	color: 	#000000;
+}
+
+.applicant-label-description {
+	color: 			#000000;
+    margin: 		10px 10px 0 0;
+	display: 		block;
+	font-size: 		12px;
+    line-height: 	25px;
+	font-weight: 	500;
+}
+
+.applicant-label-description i {
+	margin-right: 5px;
+}
+
+.applicant-footer {
+	padding: 		10px;
+	text-align: 	right;
+}
+
+@media (min-width: 768px) {
+	.applicant-footer {
+		margin-right: 	20px;
+	}
+}
+
+.applicant-label-posted {
+	color: 			#000000;
+	font-size: 		11px;
+	font-weight: 	500;
+}
+
+
+
+
+
+
+
+.applicant-contents-details {
+	padding: 		20px 10px 20px 10px;
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.applicant-body {
+	margin: 	2px 20px 10px 20px;
+	padding: 	0;
+}
+
+@media (min-width: 576px) {
+  	.applicant-header {
+		height: 40px;
+  	}
+}
+
+@media (max-width: 576px) {
+  	.applicant-header {
+		height: auto;
+  	}
+}
+
+.applicant-header {
+	border-bottom: 	1px solid #e6e6e6;
+}
+
+.applicant-name {
+	color: 				#000000;
+    display: 			inline;
+    font-size: 			20px;
+    font-weight: 		700;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.applicant-name:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.applicant-details {
+	color: 			#000000;
+    margin: 		10px 10px 0 10px;
+	display: 		block;
+	font-size: 		12px;
+	font-weight: 	500;
+}
+
+.applicant-details i {
+	margin-right: 5px;
+}
+
+.applicant-image {
+	width: 100%;
+	height: auto;
+	padding:10px;
+}
+
+
+
+@media (min-width: 576px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -33px;
+  	}
+}
+
+@media (max-width: 576px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -63px;
+  	}
+}
+
+@media (max-width: 400px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -94px;
+  	}
+}
+
+@media (max-width: 320px) {
+  	.applicant-forms-right {
+  		float: 		right;
+  	    font-size: 	35px;
+  	    margin-top: -124px;
+  	}
+}
+
+.applicant-buttons-saved i {
+	color: 				#FF3333;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.applicant-buttons-saved i:hover {
+	color: 						#FFFFFF;
+	cursor:						pointer;
+	text-decoration: 			none;
+    -webkit-text-stroke-width: 	1px;
+    -webkit-text-stroke-color: 	#FF3333;
+}
+
+
+.applicant-buttons i {
+	color: 						#FFFFFF;
+	margin-block-end: 			0;
+    margin-block-start:	 		0;	
+    -webkit-text-stroke-width: 	1px;
+    -webkit-text-stroke-color: 	#FF3333;
+
+}
+
+.applicant-buttons i:hover {
+	color: 				#FF3333;
+	cursor:				pointer;
+	text-decoration: 	none;
+}

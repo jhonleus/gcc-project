@@ -1,0 +1,281 @@
+.course-container {
+	padding: 130px 20px 20px 20px;
+}
+
+.course-contents {
+	box-shadow:		0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom: 	15px;
+}
+
+.course-content {
+	padding: 		20px 10px 20px 10px;
+	box-shadow: 	0 .5rem 1rem rgba(0,0,0,.15)!important;
+	margin-bottom:	15px;
+}
+
+.course-body {
+	margin: 	2px 20px 10px 20px;
+	padding: 	0;
+}
+
+.course-left-button {
+	color: 				#808080;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		400;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.course-left-button:hover {
+	color: 				#0d0d0d;
+	cursor: 			pointer;
+	text-decoration: 	none;
+}
+
+.course-left-button i {
+	margin-right: 5px;
+}
+
+.course-left-content {
+	padding: 	3px 20px 10px 20px;
+}
+
+.course-left-label {
+	color: 				#000000;
+	display: 			inline;
+	font-size: 			13px;
+	font-weight:		700;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.course-list-group li {
+	border: none;
+}
+
+.course-list-item {
+	cursor: 		pointer;
+	display: 		block;
+	padding: 		5px 10px 5px 10px;
+	position: 		relative;
+	margin-bottom: -1px;
+}
+
+.course-left-list {
+	color: 				#808080;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		500;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.course-left-list i {
+	margin-right: 10px;
+}
+
+.course-left-list:hover {
+	color: 				#000000;
+	text-decoration: 	none;
+}
+
+.course-left-list-active {
+	color: 				#007bff;
+	display: 			inline;
+	font-size: 			12px;
+	font-weight: 		500;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.course-left-list-active i {
+	margin-right: 10px;
+}
+
+.course-left-list-active:hover {
+	color: 				#007bff;
+	text-decoration: 	none;
+}
+
+.nav-tabs {
+    border: 		0;
+    border-radius: 	3px;
+}
+
+.nav {
+    padding-left: 0;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+	color: 				#000000;
+    transition: 		background-color .3s .2s;
+    background-color: 	hsla(0,0%,100%,.2);
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: 			#808080;
+    border: 		0;
+    padding: 		10px 15px;
+    font-size: 		12px;
+    line-height: 	24px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    display: block;
+}
+
+.nav .nav-item {
+    position: relative;
+}
+
+.course-header {
+	height: 		40px;
+	border-bottom: 	1px solid #e6e6e6;
+}
+
+.course-title {
+	color: 				#007bff;
+    display: 			inline;
+    font-size: 			20px;
+    font-weight: 		700;
+    margin-block-end: 	0;
+    margin-block-start: 0;
+}
+
+.course-actions {
+	float: 		right;
+	font-size: 	12px;
+	margin-top: 5px;
+}
+
+.course-details {
+	color: 			#000000;
+    margin: 		10px 10px 0 10px;
+	display: 		block;
+	font-size: 		12px;
+	font-weight: 	500;
+}
+
+.course-details i {
+	margin-right: 5px;
+}
+
+.course-money {
+	color: green;
+}
+
+.course-black {
+	color: #000000;
+}
+
+.course-description {
+	color: 			#000000;
+    margin: 		10px 10px 0 0;
+	display: 		block;
+	font-size: 		12px;
+    line-height: 	25px;
+	font-weight: 	500;
+}
+
+.course-footer {
+	padding: 		10px;
+	text-align: 	right;
+}
+
+@media (min-width: 768px) {
+	.course-footer {
+		margin-right: 	20px;
+	}
+}
+
+.course-posted {
+	color: 			#000000;
+	font-size: 		11px;
+	font-weight: 	500;
+}
+
+.course-forms {
+	font-size: 		12px;
+	margin-bottom:	10px;
+	padding-bottom: 10px;
+}
+
+.select {
+	width: 100%;
+}
+
+.course-button {
+	font-size: 12px;
+}
+
+.course-label {
+	text-align:left;
+	display: block;
+    color: #808080;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.course-note {
+	color: 				#000000;
+	font-size: 			18px;
+	margin-block-end: 	0;
+	margin-block-start: 0;
+}
+
+.course-blue {
+	color: 				#337ab7;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.course-blue:hover {
+	color: 				#1c4263;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.course-orange {
+	color: 				#f0ad4e;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.course-orange:hover {
+	color: 				#bc7410;
+	cursor: 			pointer;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.course-red {
+	color: 				#d9534f;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.course-red:hover {
+	color: 				#922420;
+	cursor: 			pointer;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.course-green {
+	color: 				#5cb85c;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.course-green:hover {
+	color: 				#2f6a2f;
+	cursor: 			pointer;
+    text-decoration: 	none;
+    background-color: 	transparent;
+}
+
+.txtarea, .input{
+	width: 100%;
+}

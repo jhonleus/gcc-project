@@ -1,0 +1,41 @@
+	/*registerpage*/
+	.container .card{
+		box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+	}
+	.register-page-banner{
+		background-color:#1B98E0;
+		/*background-image: url("/images/register-image1-01.svg");*/
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.register:hover{
+		box-shadow: 5px 5px 5px 5px #D0D6DC;
+	}
+
+	.register-page-form{
+		
+	}
+
+	/*mobile size*/
+	@media only screen and (max-width: 480px) {
+
+	.container .card{
+		box-shadow: none;
+		border: none;
+	}
+
+	.register-page-banner{
+			display: none;
+	}
+
+	.register-page-container{
+		margin-bottom: 50%;
+	}
+
+	.register-page-form{
+		margin-top: 0;
+	}
+
+
+	}

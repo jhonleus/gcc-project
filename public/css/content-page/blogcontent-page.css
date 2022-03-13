@@ -1,0 +1,32 @@
+		.blogcontent-page-container{
+			margin-top: 100px;
+		}
+		
+		.blogcontent-page-title{
+			font-size: 60px;
+		}
+
+		.blogcontent-page-subtitle{
+			font-size: 20px;
+		}
+
+/*mobile size*/
+	@media only screen and (max-width: 480px) {
+
+		.blogcontent-page-title{
+			text-align: center;
+			font-size: 30px;
+		}
+
+		.blogcontent-page-subtitle{
+			text-align: center;
+		}
+
+		.blogcontent-page-created{
+			text-align: center;
+			display: block;
+			margin: 0px auto;
+			margin-bottom: 25px;
+		}
+
+	}
